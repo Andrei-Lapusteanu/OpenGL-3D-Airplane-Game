@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9494f307-c1ec-49c3-b3a2-e8bd3267d84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{a3d208ce-c616-4e32-9d2d-f8e8825c59cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2eb2cb-c2cc-41b4-af6d-395b05f55a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{473dfab2-3e7d-432d-8e69-65aa99f48c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GPU">
+      <UniqueIdentifier>{271e5bd2-7cb3-40b7-b2e5-5e343c58f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare">
+      <UniqueIdentifier>{a73d11aa-9a42-4f7c-ba61-adefedb1e0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2940a1fd-9fef-46a7-93fb-a8241118d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema">
+      <UniqueIdentifier>{0a11d0f7-313a-41f5-97b3-e986bc7d2b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema\Shaders">
+      <UniqueIdentifier>{d04c76d1-c19a-4046-b0ae-872e46e532dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema\Shaders\Cloud">
+      <UniqueIdentifier>{38fc8fe0-d3fd-4c86-ab96-acefd2a97bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema\Shaders\Sea">
+      <UniqueIdentifier>{af876512-f8fe-4859-88a2-8b188d128d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema\Shaders\Bomb">
+      <UniqueIdentifier>{2fb4d935-765f-497e-8616-25c53b2844fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema\Shaders\UI">
+      <UniqueIdentifier>{3fb5b2aa-12c9-46c3-9a9d-f07adf021682}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\World.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\include\gl.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\WindowObject.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Shader.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Core\Window\WindowCallbacks.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Mesh.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Texture2D.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Managers\TextureManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\CameraInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\InputController.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SimpleScene.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\GPUBuffers.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SceneInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Tema\Tema.cpp">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Tema\GameController.cpp">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Core\World.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\gl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\glm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowObject.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Shader.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowCallbacks.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Mesh.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Texture2D.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\LabList.h">
+      <Filter>Laboratoare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\ResourcePath.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\TextureManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\CameraInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\InputController.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SimpleScene.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\GPUBuffers.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SceneInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\Tema.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\Transform3D.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\GameController.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\Cloud.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\CloudCube.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\Extensions.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\Bomb.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\MaterialProperties.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\Object2D.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema\Transform2D.h">
+      <Filter>Laboratoare\Tema</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\Source\Laboratoare\Tema\Shaders\FragmentShader.glsl">
+      <Filter>Laboratoare\Tema\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\VertexShader.glsl">
+      <Filter>Laboratoare\Tema\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\Cloud\CloudFS.glsl">
+      <Filter>Laboratoare\Tema\Shaders\Cloud</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\Cloud\CloudVS.glsl">
+      <Filter>Laboratoare\Tema\Shaders\Cloud</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\Sea\SeaFS.glsl">
+      <Filter>Laboratoare\Tema\Shaders\Sea</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\Sea\SeaVS.glsl">
+      <Filter>Laboratoare\Tema\Shaders\Sea</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\Bomb\BombGS.glsl">
+      <Filter>Laboratoare\Tema\Shaders\Bomb</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\Bomb\BombVS.glsl">
+      <Filter>Laboratoare\Tema\Shaders\Bomb</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\UI\UI_VS.glsl">
+      <Filter>Laboratoare\Tema\Shaders\UI</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema\Shaders\UI\UI_FS.glsl">
+      <Filter>Laboratoare\Tema\Shaders\UI</Filter>
+    </None>
+  </ItemGroup>
+</Project>
