@@ -14,7 +14,11 @@ A simple 3D airplane game implemented using OpenGL and basic shaders. The framew
 - Entire game coded in **C++** and using **OpenGL** syntax
 - **Shaders** (Vertex, Fragment, Geomtery) written in **GLSL**
 - Most 3D models used have been modeled and exported using **Maya**
+
+# Functionality
+- As the airplane orbits the ocean planet continuously, your task is to avoid the bombs generated at random positions along your path, by maneuvering the plane vertical
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDQ4ODgxMSwtMTkzMDAyMDgzNCwtMT
+eyJoaXN0b3J5IjpbLTY1MDA1MDEwNSwtMTkzMDAyMDgzNCwtMT
 MzNjcxMzI1OV19
 -->
