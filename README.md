@@ -12,7 +12,7 @@ A simple 3D airplane game implemented using OpenGL and basic shaders. The framew
 
 # Technologies
 - Entire game coded in **C++** and using **OpenGL** syntax
-- **Shaders** (Vertex, Fragment, Geomtery) written in **GLSL**
+- **Shaders** (Vertex, Fragment, Geometry) written in **GLSL**
 - Most 3D models used have been modeled and exported using **Maya**
 
 # Functionality
@@ -21,6 +21,6 @@ A simple 3D airplane game implemented using OpenGL and basic shaders. The framew
 - The game is over when you deplete your lives (obviously)
 - Press **F** to toggle between the **third person** and **first person camera**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM0MTUwNTIsLTE5MzAwMjA4MzQsLT
-EzMzY3MTMyNTldfQ==
+eyJoaXN0b3J5IjpbNTQyMDU2ODgyLC0xOTMwMDIwODM0LC0xMz
+M2NzEzMjU5XX0=
 -->
