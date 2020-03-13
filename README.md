@@ -11,8 +11,10 @@ A simple 3D airplane game implemented using OpenGL and basic shaders. The framew
 ![](demo.gif)
 
 # Technologies
-- Entire game coded using **C++** and Open
+- Entire game coded in **C++** and using **OpenGL** syntax
+- **Shaders** (Vertex, Fragment, Geomtery) written in **GLSL**
+- Most 3D models used have been modeled and exported using **Maya**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2ODA1NzU4LC0xOTMwMDIwODM0LC0xMz
-M2NzEzMjU5XX0=
+eyJoaXN0b3J5IjpbLTk5NDQ4ODgxMSwtMTkzMDAyMDgzNCwtMT
+MzNjcxMzI1OV19
 -->
