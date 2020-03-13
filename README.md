@@ -16,11 +16,11 @@ A simple 3D airplane game implemented using OpenGL and basic shaders. The framew
 - Most 3D models used have been modeled and exported using **Maya**
 
 # Functionality
-- As the airplane orbits the ocean planet continuously, your task is to avoid the bombs generated at random positions along your path, by maneuvering the plane vertically *with your mouse.
+- As the airplane orbits the ocean planet continuously, your task is to avoid the bombs generated at random positions along your path, by maneuvering the plane vertically **with your mouse**
 - You have in total 5 lives, and you lose one for each collision with a bomb
 - The game is over when you deplete your lives (obviously)
-- Press
+- Press **F** to toggle between the **third person** and **first person camera**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk3MDgzNzcsLTE5MzAwMjA4MzQsLT
+eyJoaXN0b3J5IjpbLTExNzM0MTUwNTIsLTE5MzAwMjA4MzQsLT
 EzMzY3MTMyNTldfQ==
 -->
